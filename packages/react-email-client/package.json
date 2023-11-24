@@ -1,10 +1,7 @@
 {
-  "name": "react-email",
-  "version": "1.0.0",
+  "name": "react-email-client",
+  "version": "0.0.0",
   "private": true,
-  "workspaces": [
-    ".react-email"
-  ],
   "scripts": {
     "dev": "email dev -p 3001",
     "export": "email export"

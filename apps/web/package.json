@@ -1,5 +1,5 @@
 {
-  "name": "next",
+  "name": "web",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.0.2",
+    "@react-email/render": "^0.0.9",
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "@types/eslint": "^8.44.7",
