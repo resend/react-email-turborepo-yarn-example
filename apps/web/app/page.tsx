@@ -1,5 +1,10 @@
+import { render } from '@react-email/render'
+import { VercelInviteUserEmail } from '@repo/react-email-client/emails/vercel-invite-user-email';
+
 export default function Page(): JSX.Element {
+  const html = render(VercelInviteUserEmail());
+
   return (
-    <h1>Next.js App</h1>
+    <div dangerouslySetInnerHTML={{ __html: html }} />
   );
 }
