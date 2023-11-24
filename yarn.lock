@@ -1152,6 +1152,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@repo/react-email-client@*, @repo/react-email-client@workspace:packages/react-email-client":
+  version: 0.0.0-use.local
+  resolution: "@repo/react-email-client@workspace:packages/react-email-client"
+  dependencies:
+    "@react-email/components": 0.0.6
+    react-email: 1.9.3
+  languageName: unknown
+  linkType: soft
+
 "@repo/typescript-config@*, @repo/typescript-config@workspace:packages/typescript-config":
   version: 0.0.0-use.local
   resolution: "@repo/typescript-config@workspace:packages/typescript-config"
@@ -5711,15 +5720,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-email-client@workspace:packages/react-email-client":
-  version: 0.0.0-use.local
-  resolution: "react-email-client@workspace:packages/react-email-client"
-  dependencies:
-    "@react-email/components": 0.0.6
-    react-email: 1.9.3
-  languageName: unknown
-  linkType: soft
-
 "react-email-turborepo-yarn-example@workspace:.":
   version: 0.0.0-use.local
   resolution: "react-email-turborepo-yarn-example@workspace:."
@@ -7080,6 +7080,7 @@ __metadata:
     "@next/eslint-plugin-next": ^14.0.2
     "@react-email/render": ^0.0.9
     "@repo/eslint-config": "*"
+    "@repo/react-email-client": "*"
     "@repo/typescript-config": "*"
     "@types/eslint": ^8.44.7
     "@types/node": ^17.0.12
