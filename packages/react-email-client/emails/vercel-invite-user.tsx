@@ -29,9 +29,7 @@ interface VercelInviteUserEmailProps {
   inviteFromLocation?: string;
 }
 
-const baseUrl = process.env.VERCEL_URL
-  ? `https://${process.env.VERCEL_URL}`
-  : '';
+const baseUrl = 'https://react-email-demo-ijnnx5hul-resend.vercel.app';
 
 export const VercelInviteUserEmail = ({
   username = 'zenorocha',
@@ -96,16 +94,6 @@ export const VercelInviteUserEmail = ({
                   <Img className="rounded-full" src={teamImage} width="64" height="64" />
                 </Column>
               </Row>
-            </Section>
-            <Section className="text-center mt-[32px] mb-[32px]">
-              <Button
-                pX={20}
-                pY={12}
-                className="bg-[#000000] rounded text-white text-[12px] font-semibold no-underline text-center"
-                href={inviteLink}
-              >
-                Join the team
-              </Button>
             </Section>
             <Text className="text-black text-[14px] leading-[24px]">
               or copy and paste this URL into your browser:{' '}
