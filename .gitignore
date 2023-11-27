@@ -2,9 +2,13 @@
 
 # Dependencies
 node_modules
-.pnp
-.pnp.js
-.yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
 # Local env files
 .env
