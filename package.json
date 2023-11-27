@@ -16,6 +16,12 @@
   "packageManager": "yarn@3.4.1",
   "workspaces": [
     "apps/*",
+    "packages/react-email-client/.react-email",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "eslint-plugin-only-warn": "^1.1.0",
+    "next": "^14.0.3",
+    "styled-jsx": "^5.1.2"
+  }
 }
