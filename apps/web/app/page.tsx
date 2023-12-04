@@ -1,5 +1,5 @@
 import { render } from '@react-email/render'
-import { VercelInviteUserEmail } from '@repo/react-email-client/emails/vercel-invite-user';
+import { VercelInviteUserEmail } from 'transactional/emails/vercel-invite-user';
 
 export default function Page(): JSX.Element {
   const html = render(VercelInviteUserEmail({}));
