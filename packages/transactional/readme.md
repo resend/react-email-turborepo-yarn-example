@@ -15,16 +15,12 @@ to yourself for testing purposes.
 First, install the dependencies:
 
 ```sh
-npm install
-# or
 yarn
 ```
 
 Then, you can run the react.email developmenet server by running:
 
 ```sh
-npm run dev
-# or
 yarn dev
 ```
 
