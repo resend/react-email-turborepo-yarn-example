@@ -1,6 +1,5 @@
 import {
   Body,
-  Button,
   Column,
   Container,
   Head,
@@ -12,8 +11,8 @@ import {
   Preview,
   Row,
   Section,
-  Tailwind,
   Text,
+  Tailwind
 } from '@react-email/components';
 import * as React from 'react';
 
