@@ -23,7 +23,7 @@ yarn
 yarn dev
   ```
 
-4. Open URL in the browser:
+3. Open URL in the browser:
 
 * http://localhost:3000
 

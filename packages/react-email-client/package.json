@@ -7,10 +7,10 @@
     "export": "email export"
   },
   "dependencies": {
-    "@react-email/components": "0.0.11",
-    "@react-email/tailwind": "canary",
+    "@react-email/components": "0.0.12",
+    "@react-email/render": "0.0.10",
     "react": "^18.2.0",
-    "react-email": "1.9.5"
+    "react-email": "1.10.0"
   },
   "devDependencies": {
     "@repo/typescript-config": "*",

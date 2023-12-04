@@ -16,7 +16,6 @@
   "packageManager": "yarn@3.4.1",
   "workspaces": [
     "apps/*",
-    "packages/react-email-client/.react-email",
     "packages/*"
   ],
   "dependencies": {
