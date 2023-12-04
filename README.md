@@ -26,6 +26,7 @@ yarn dev
 3. Open URL in the browser:
 
 * http://localhost:3000
+* http://localhost:3001
 
 ## License
 
