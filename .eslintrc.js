@@ -13,6 +13,7 @@ module.exports = {
   env: {
     node: true,
   },
+  parser: "@typescript-eslint/parser",
   settings: {
     "import/resolver": {
       typescript: {
