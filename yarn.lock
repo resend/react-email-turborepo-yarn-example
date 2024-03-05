@@ -1921,10 +1921,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^17.0.12":
-  version: 17.0.45
-  resolution: "@types/node@npm:17.0.45"
-  checksum: aa04366b9103b7d6cfd6b2ef64182e0eaa7d4462c3f817618486ea0422984c51fc69fd0d436eae6c9e696ddfdbec9ccaa27a917f7c2e8c75c5d57827fe3d95e8
+"@types/node@npm:^20.0.0":
+  version: 20.11.19
+  resolution: "@types/node@npm:20.11.19"
+  dependencies:
+    undici-types: ~5.26.4
+  checksum: 259d16643ba611ade617a8212e594a3ac014727457507389bbf7213971346ab052d870f1e6e2df0afd0876ecd7874f578bccb130be01e069263cfc7136ddc0c1
   languageName: node
   linkType: hard
 
@@ -8390,7 +8392,7 @@ __metadata:
     "@react-email/components": 0.0.14
     "@react-email/render": ^0.0.12
     "@types/eslint": ^8.44.7
-    "@types/node": ^17.0.12
+    "@types/node": ^20.0.0
     "@types/react": ^18.0.22
     "@types/react-dom": ^18.0.7
     "@vercel/style-guide": ^5.1.0
