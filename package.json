@@ -1,31 +1,24 @@
 {
-  "name": "react-email-turborepo-yarn-example",
+  "name": "my-turborepo",
   "private": true,
   "scripts": {
-    "build": "turbo build --filter=!react-email-client",
-    "dev": "turbo dev --filter=!react-email-client",
-    "lint": "turbo lint --filter=!react-email-client",
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "clean": "turbo clean",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "prettier": "^3.1.0",
-    "turbo": "latest"
+    "prettier": "^3.2.5",
+    "turbo": "^2.3.3",
+    "typescript": "5.7.3"
   },
-  "packageManager": "yarn@3.4.1",
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "yarn@1.22.19",
   "workspaces": [
     "apps/*",
-    "packages/transactional/.react-email",
     "packages/*"
-  ],
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.11.0",
-    "@typescript-eslint/parser": "^6.11.0",
-    "@vercel/style-guide": "^5.1.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-config-turbo": "^1.10.12",
-    "eslint-plugin-only-warn": "^1.1.0",
-    "next": "^14.0.3",
-    "styled-jsx": "^5.1.2",
-    "typescript": "^5.2.2"
-  }
+  ]
 }

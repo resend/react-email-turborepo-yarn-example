@@ -1,17 +1,25 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalDependencies": ["**/.env.*local"],
-  "pipeline": {
+  "ui": "tui",
+  "globalEnv": ["AWS_EMAIL_SECRET_ACCESS_KEY", "AWS_EMAIL_ACCESS_KEY", "AWS_EMAIL_REGION"],
+  "tasks": {
     "build": {
       "dependsOn": ["^build"],
+      "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "outputs": [".next/**", "!.next/cache/**"]
     },
     "lint": {
       "dependsOn": ["^lint"]
     },
+    "check-types": {
+      "dependsOn": ["^check-types"]
+    },
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "clean": {
+      "cache": false
     }
   }
 }

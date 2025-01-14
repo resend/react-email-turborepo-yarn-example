@@ -1,17 +1,18 @@
 {
-  "name": "transactional",
-  "version": "0.0.0",
+  "name": "@repo/transactional",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "email dev -p 3001",
-    "export": "email export"
-  },
-  "dependencies": {
-    "@react-email/components": "0.0.14",
-    "react": "^18.2.0",
-    "react-email": "2.0.0"
+    "dev": "email dev -p 6969",
+    "export": "email export",
+    "clean": "rm -rf node_modules .react-email"
   },
   "devDependencies": {
-    "@types/react": "^18.2.38"
+    "react-email": "3.0.6"
+  },
+  "dependencies": {
+    "@react-email/components": "0.0.32",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   }
 }
