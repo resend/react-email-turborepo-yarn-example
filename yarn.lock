@@ -7786,18 +7786,18 @@ __metadata:
   linkType: hard
 
 "styled-jsx@npm:^5.1.2":
-  version: 5.1.2
-  resolution: "styled-jsx@npm:5.1.2"
+  version: 5.1.7
+  resolution: "styled-jsx@npm:5.1.7"
   dependencies:
     client-only: 0.0.1
   peerDependencies:
-    react: ">= 16.8.0 || 17.x.x || ^18.0.0-0"
+    react: ">= 16.8.0 || 17.x.x || ^18.0.0-0 || ^19.0.0-0"
   peerDependenciesMeta:
     "@babel/core":
       optional: true
     babel-plugin-macros:
       optional: true
-  checksum: f49d64219fd83be469b39d40c8f93cae50a9fb8a020d6bb46a7619836b22cdcd9cd98b8a89aa354b71c3d1de4b240d0b9fd091177565ee8aecebbe1b5a7a42d5
+  checksum: 5c3bbbe16bcf4aff869786e189b7c0ab6578443b42147fbe85ec0922ae69dfbdcced38fcbd6c0c3e52ea6e6f6be9a33581d383655b5d91c110646e4189844e9a
   languageName: node
   linkType: hard
 
