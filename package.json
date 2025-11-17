@@ -16,7 +16,7 @@
     "prettier": "3.1.0",
     "turbo": "2.5.4"
   },
-  "packageManager": "yarn@4.9.2",
+  "packageManager": "yarn@4.11.0",
   "workspaces": [
     "apps/*",
     "packages/transactional/.react-email",
