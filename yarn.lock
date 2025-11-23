@@ -934,6 +934,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-email/render@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@react-email/render@npm:1.4.0"
+  dependencies:
+    html-to-text: "npm:^9.0.5"
+    prettier: "npm:^3.5.3"
+    react-promise-suspense: "npm:^0.3.4"
+  peerDependencies:
+    react: ^18.0 || ^19.0 || ^19.0.0-rc
+    react-dom: ^18.0 || ^19.0 || ^19.0.0-rc
+  checksum: 10c0/9c4572daa621d463e4095d79f5788148d906dd5df4f97422a99bf76a444a260faa7ec823ff1589183fe54edafbde2f9c4fa3b65576d6d1beffd19dec8b431d77
+  languageName: node
+  linkType: hard
+
 "@react-email/row@npm:0.0.12":
   version: 0.0.12
   resolution: "@react-email/row@npm:0.0.12"
@@ -2489,7 +2503,7 @@ __metadata:
   resolution: "web@workspace:apps/web"
   dependencies:
     "@react-email/components": "npm:0.1.1"
-    "@react-email/render": "npm:1.1.3"
+    "@react-email/render": "npm:1.4.0"
     "@types/node": "npm:17.0.45"
     "@types/react": "npm:19.1.8"
     "@types/react-dom": "npm:19.1.6"
