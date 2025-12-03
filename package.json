@@ -14,7 +14,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.0.6",
     "prettier": "3.1.0",
-    "turbo": "2.5.4"
+    "turbo": "2.6.2"
   },
   "packageManager": "yarn@4.11.0",
   "workspaces": [
