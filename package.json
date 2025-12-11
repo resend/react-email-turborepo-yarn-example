@@ -3,23 +3,15 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
-    "dev": "turbo dev",
-    "lint:fix": "biome check . --write",
-    "lint": "biome check ."
-  },
-  "dependencies": {
-    "next": "15.3.5",
-    "typescript": "5.8.3"
+    "dev": "turbo dev"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.0.6",
-    "prettier": "3.1.0",
-    "turbo": "2.5.4"
+    "turbo": "2.5.4",
+    "typescript": "5.8.3"
   },
   "packageManager": "yarn@4.11.0",
   "workspaces": [
     "apps/*",
-    "packages/transactional/.react-email",
     "packages/*"
   ]
 }
