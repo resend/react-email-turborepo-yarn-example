@@ -10,12 +10,8 @@
       ],
       "outputs": [
         ".next/**",
-        "!.next/cache/**"
-      ]
-    },
-    "lint": {
-      "dependsOn": [
-        "^lint"
+        "!.next/cache/**",
+        ".react-email"
       ]
     },
     "dev": {
