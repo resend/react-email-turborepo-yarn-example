@@ -10,12 +10,12 @@
   "dependencies": {
     "next": "16.0.8",
     "react-email": "6.1.4",
-    "react": "19.2.1",
-    "react-dom": "19.2.1"
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
   },
   "devDependencies": {
     "@types/node": "17.0.45",
-    "@types/react": "19.2.7",
+    "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "typescript": "5.8.3"
   }
